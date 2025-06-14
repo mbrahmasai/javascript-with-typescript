@@ -78,14 +78,14 @@
 // ------------------------------------------
 // lexical scope : inner function have access to variable in their outer function's scope . even after the outer function has finished executing (this enables closures)
 //----------------------------------------
-function outer(){
-    let outervar: string = "brahmasai";
-    function inner(){
-        console.log(outervar); // 👈 will print "brahmasai"
-    }
-    return inner;
-}
+// function outer(){
+//     let outervar: string = "brahmasai";
+//     function inner(){
+//         console.log(outervar); // 👈 will print "brahmasai"
+//     }
+//     return inner;
+// }
 
-const result = outer();  // outer is called, and inner is returned
-result();                // inner is called
+// const result = outer();  // outer is called, and inner is returned
+// result();                // inner is called
 // ================================================================
