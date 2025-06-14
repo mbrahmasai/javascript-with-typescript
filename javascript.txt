@@ -1,0 +1,51 @@
+js
+------------
+variables
+
+var 
+let 
+const
+
+scope 
+hoisting
+temperol dead zone
+
+array 
+shallow copy 
+deep copy 
+spread operator
+destructing
+
+object
+
+
+number
+
+regex
+
+event  
+event listeners
+
+
+conditions 
+loops
+
+function
+default paramter
+pass by value
+pass by reference 
+rest operator
+
+call 
+bind
+apply
+
+closures
+curry
+callback 
+callback hell 
+
+
+asynchronous
+promises
+async / await
