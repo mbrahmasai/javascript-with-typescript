@@ -26,13 +26,12 @@
 // var data : unknown = "brahmasai"  // unknown also not supported to redclaring a variable\
 
 //---------------------------------------------------------
-// let is introduced in ec6 version of js.
-//  it is block scope ,
-// it must be declare before use means hoisting is not supported. 
-// it canot be redeclare the same variable .
-//  it allows u to reassign the value 
+//  let is introduced in ec6 version of js.
+//  it is block scope.
+//  it must be declare before use means hoisting is not supported. 
+//  it canot be redeclare the same variable .
+//  it allows u to reassign the value. 
 //---------------------------------------------------------------
-
 // let data : string = "brahmasai"
 
 // data = "sai"  // reassign is allowed
@@ -140,17 +139,17 @@
 
 // 2. change tehe properties of constant object
 
-const user : any = {
-    name : "brahmasai",
-    age : 27
-}
-console.log(user)
+// const user : any = {
+//     name : "brahmasai",
+//     age : 27
+// }
+// console.log(user)
 
-user.age = 26
-console.log(user);
+// user.age = 26
+// console.log(user);
 
-user.gender = "male"
-console.log(user)   // if u add element in object ,must declare type any
+// user.gender = "male"
+// console.log(user)   // if u add element in object ,must declare type any
 
 // ---------------------------------------------------------------------------
 
