@@ -1,0 +1,98 @@
+
+
+const num = [1,2,3,4,5,6,7,8]
+const str = ["ram", "prasad", "brahma","sai", "phani","mohana"]
+// // foreach
+// // Purpose: Executes a function for each element in an array.
+// // Returns: Nothing (undefined); it's used for side effects (e.g., logging, updating UI).
+
+// // foreach only use synchornous side effect or logging , for async api calls , prefer for...of or promise all
+
+// console.log 
+
+// num.forEach(x => {
+//     console.log(x)
+// });
+
+// str.forEach(x=>
+//     console.log(x)  //show the result only 
+//     //in console.log , result will show in side the function 
+// )
+
+// foreach return the undefined 
+// const x = num.forEach(x=>{
+//     return x  // it given out thr result 
+//     // in return , result will shown out side of function while called it
+// })
+// console.log(x)
+
+// make condiition in forEach
+// num.forEach(x => console.log(x>2))
+
+// // Map
+// // Purpose: Transforms each element in an array using a function.
+// // Returns: A new array with the transformed elements.
+
+// num.map(x => console.log(x>1))
+// const num1 = num.map(x => x + 2 )
+// const num11 = num.map(x => x > 2 )  // in map doesnot returned condition
+// console.log(num1);
+// console.log(num11);   
+// comparsion operators are used  for conditions .
+
+// str.map(x => console.log(x))
+
+// // filter 
+// // Purpose: Filters elements based on a condition (function returning true or false).
+// // Returns: A new array with elements that pass the condition.
+
+// num.filter(x => console.log(x>1))
+// const num2 = num.filter(x => x > 2)
+// console.log(num2);
+
+// // reduce
+// // Purpose: Reduces an array to a single value by accumulating results.
+// // Returns: A single value (e.g., sum, product).
+
+
+// array.reduce((accumulator, currentValue) => {
+//   return newAccumulator;
+// }, initialValue);
+
+// accumulator: Carries the result through each iteration.
+// currentValue: The current item being processed.
+// initialValue: The starting value for the accumulator (e.g. 0, {}, []).
+
+// const numbers = [1, 2, 3, 4];
+// const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+// console.log(sum); 
+
+// // in comparsion operator  >  < 
+// // print output in boolean
+// // return condition satisfied values returned
+
+// // return vs print
+
+// // 🔁 return
+// // Purpose: Sends a value out of a function.
+// // Effect: Ends function execution and provides a result to the caller.
+// // Used in: Function logic.
+
+// // 📦 console.log()
+// // Purpose: Prints output to the console (for debugging/visibility).
+// // Effect: Does not affect function output or logic.
+// // Used in: Debugging or logging purposes.
+
+
+// 🤔 So why:
+// ❓ "Why console.log prints boolean?"
+// Because you're directly logging the result of the condition x > 3 — a boolean.
+
+// ❓ "Why return results values?"
+// Because return tells the method (filter, map, etc.) what value to use in building the new array (or whatever it's designed to do).
+
+
+// note : 
+// console.log(): just print result each element line by line 
+
+// result : just store the true result of each element make in an respective inputs (arrays , string , numbers , objects)
