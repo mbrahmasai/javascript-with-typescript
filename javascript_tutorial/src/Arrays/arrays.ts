@@ -31,7 +31,7 @@ cara[0] = 'tata'
 cara [1] = 'mahindra'
 cara[2] = "bajaj"
 
-// console.log(cara)
+console.log(cara)
 
 // in javascript keyword , to create an array with new Array keyword. but it have some drawbacks 
 const caraa = new Array("tata", "mahindra", "bajaj")
@@ -119,6 +119,16 @@ const obj1 : object2 = {
 console.log(obj1);
 console.log(obj1.name);
 
+// object in array
+
+const arr1: any[] = [ "phani",1, {
+    name:"brahmasai",
+    age : 27
+}]
+console.log(arr1[0]);
+console.log(arr1[2]);
+console.log(arr1[2].name);
+
 // Associative arrays
 // in other programming languages arrays can access with the index names , not only indexes numbers . those arrays are associative arrays
 // but in java script , arrays can be accessed with the indexes numbers only.
@@ -144,6 +154,30 @@ console.log(myObj.address[0].street);
 console.log(myObj.address[1].village);
 // =============================================================
 
+
+type  obj = string | number
+
+interface obj1 {
+    name : string,
+    age : obj,
+    male : boolean,
+}
+
+const rp : obj1 = {
+    name : "ram prasad",
+    age : 29,
+    male : true
+}
+
+interface inheritance_name extends obj1 {
+    address ?: obj   // optional type
+}
+const mbs : inheritance_name = {
+    name : "brahmasai",
+    age : 27,
+    male : true,
+    address : "nellore - 5"
+}
 
 
 

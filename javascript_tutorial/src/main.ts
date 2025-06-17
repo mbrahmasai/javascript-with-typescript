@@ -1,1 +1,1 @@
-import './Arrays/arrays'
+import './Arrays/array_practice'
