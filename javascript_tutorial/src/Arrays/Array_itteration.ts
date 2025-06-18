@@ -123,8 +123,8 @@
 // array iterations practice 
 
 
-const num = [1,2,3,4,5,6,7]
-const str = ["brahmasai", "rp","phani"]
+// const num = [1,2,3,4,5,6,7]
+// const str = ["brahmasai", "rp","phani"]
 
 // foreach
 // num.forEach((x)=>console.log(x))
@@ -157,4 +157,66 @@ const str = ["brahmasai", "rp","phani"]
 // reduce
 // const sum = num.reduce((a,c)=>a+c,0)
 // console.log(sum)
+
+
+// Array.prototype.sum = function() {
+//     return this.reduce((a,c)=> a+c ,0)
+// }
+// const num = [1,2,3,4,5]
+// console.log(num.sum())
+//in arrow function ,this is valid , if u want to assign current value to function use this in normal function 
+
+// 🧠 What does this mean here?
+// this refers to the array instance that the sum method was called on.
+// In num.sum(), this inside the sum function is the array [1, 2, 3].
+
+// Array.prototype.sum = function () {
+//     return this.reduce((a,c)=> a+c,0)
+// }
+
+// declare global{
+//     interface  Array <T> {
+//         sum(): T | undefined 
+//     }
+// }
+
+// export{};
+
+// const num11 = [1,2,3,4,5]
+// console.log(num11.sum())
+
+
+
+// Array itteration 
+
+const num = [1,2,3,4,5,6,7]
+const str = ["brahmasai", "rp","phani"]
+
+// for each   : excute the function on each element on an array
+// return is not done
+
+num.forEach((x)=> console.log(x))
+
+const numMap =num.map((x)=>x)
+console.log(numMap)
+
+const numCon = num.map((x)=> x>1)
+console.log(numCon);
+
+// true or false
+
+const numF = num.filter(x => x)
+console.log(numF);
+const numc = num.filter(x => x>1)
+console.log(numc);
+
+// reduce 
+
+const numr = num.reduce((a,c)=> a + c , + "a") 
+console.log(numr);
+
+
+
+
+
 
