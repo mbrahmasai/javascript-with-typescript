@@ -1,5 +1,3 @@
-
-
 // const num = [1,2,3,4,5,6,7,8]
 // const str = ["ram", "prasad", "brahma","sai", "phani","mohana"]
 // // foreach
@@ -119,44 +117,7 @@
 // console.log(arr.first()); // Output: 10
 
 
-// ======================================================
-// array iterations practice 
 
-
-// const num = [1,2,3,4,5,6,7]
-// const str = ["brahmasai", "rp","phani"]
-
-// foreach
-// num.forEach((x)=>console.log(x))
-
-//map
-// num.map((x)=> console.log(x))
-
-// map returns new array  
-// const numMap = num.map((x)=> x)
-// console.log(numMap)
-
-// is map returns an  array based on condition 
-
-// num.map((x)=> console.log(x>2))
-
-// const nummapcondition = num.map ((x)=> x>3)
-// console.log(nummapcondition)       // map return a new array what value u get, while useing comparsion operator result must be in boolean only 
-
-//filter returns new array based on condition 
-
-// num.filter((x)=> console.log(x))
-// const numfilter = num.filter(x=> x)
-// console.log(numfilter)
-
-// num.filter(x => console.log(x>3))
-
-// const numCondition =  num.filter(x => x>3)
-// console.log(numCondition)  // based on condition that true assigned values only shows 
-
-// reduce
-// const sum = num.reduce((a,c)=>a+c,0)
-// console.log(sum)
 
 
 // Array.prototype.sum = function() {
@@ -170,50 +131,37 @@
 // this refers to the array instance that the sum method was called on.
 // In num.sum(), this inside the sum function is the array [1, 2, 3].
 
-// Array.prototype.sum = function () {
-//     return this.reduce((a,c)=> a+c,0)
-// }
 
-// declare global{
-//     interface  Array <T> {
-//         sum(): T | undefined 
-//     }
-// }
-
-// export{};
-
-// const num11 = [1,2,3,4,5]
-// console.log(num11.sum())
 
 
 
 // Array itteration 
 
-const num = [1,2,3,4,5,6,7]
-const str = ["brahmasai", "rp","phani"]
+// const num = [1,2,3,4,5,6,7]
+// const str = ["brahmasai", "rp","phani"]
 
 // for each   : excute the function on each element on an array
 // return is not done
 
-num.forEach((x)=> console.log(x))
+// num.forEach((x)=> console.log(x))
 
-const numMap =num.map((x)=>x)
-console.log(numMap)
+// const numMap =num.map((x)=>x)
+// console.log(numMap)
 
-const numCon = num.map((x)=> x>1)
-console.log(numCon);
+// const numCon = num.map((x)=> x>1)
+// console.log(numCon);
 
-// true or false
+// // true or false
 
-const numF = num.filter(x => x)
-console.log(numF);
-const numc = num.filter(x => x>1)
-console.log(numc);
+// const numF = num.filter(x => x)
+// console.log(numF);
+// const numc = num.filter(x => x>1)
+// console.log(numc);
 
-// reduce 
+// // reduce 
 
-const numr = num.reduce((a,c)=> a + c , + "a") 
-console.log(numr);
+// const numr = num.reduce((a,c)=> a + c , + "a") 
+// console.log(numr);
 
 
 
