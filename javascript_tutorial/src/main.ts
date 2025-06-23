@@ -1,1 +1,1 @@
-import './Arrays/Array_itteration'
+import './functions/promise'
